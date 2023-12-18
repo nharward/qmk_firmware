@@ -9,12 +9,13 @@ MIRYOKU_TAP       = QWERTY
 MIRYOKU_NAV       = VI
 ###### end block copyright 2023 Nathaniel Harward
 
-MOUSEKEY_ENABLE = yes
-EXTRAKEY_ENABLE = yes
-AUTO_SHIFT_ENABLE = yes
-TAP_DANCE_ENABLE = yes
-CAPS_WORD_ENABLE = yes
+AUTO_SHIFT_ENABLE   = yes
+CAPS_WORD_ENABLE    = yes
+EXTRAKEY_ENABLE     = yes
 KEY_OVERRIDE_ENABLE = yes
+MOUSEKEY_ENABLE     = yes
+OLED_ENABLE         = yes
+TAP_DANCE_ENABLE    = yes
 
 INTROSPECTION_KEYMAP_C = manna-harbour_miryoku.c # keymaps
 
